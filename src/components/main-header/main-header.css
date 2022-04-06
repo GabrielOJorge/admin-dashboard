@@ -8,3 +8,9 @@
   grid-auto-flow: column;
   align-items: center;
 }
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
