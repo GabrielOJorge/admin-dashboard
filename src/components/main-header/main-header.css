@@ -9,8 +9,14 @@
   align-items: center;
 }
 
-.search-bar {
+.search-bar, .search-bar + div {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.pfp {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
 }
