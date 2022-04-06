@@ -1,0 +1,10 @@
+.main-header {
+  grid-area: header;
+  display: grid;
+}
+
+.main-header > div {
+  display: inherit;
+  grid-auto-flow: column;
+  align-items: center;
+}
