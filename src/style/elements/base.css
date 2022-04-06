@@ -1,17 +1,15 @@
 body {
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
   grid-template-areas: "sidebar header"
                        "sidebar main";
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
   list-style-type: none;
-}
-
-header {
-  grid-area: header;
 }
 
 main {
