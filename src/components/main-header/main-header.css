@@ -16,6 +16,12 @@
 }
 
 .pfp {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.pfp.-small {
   height: 40px;
   width: 40px;
   border-radius: 100%;
