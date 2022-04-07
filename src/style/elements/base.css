@@ -15,3 +15,14 @@ ul {
 main {
   grid-area: main;
 }
+
+input[type="search"] {
+  padding: .5rem 30rem .5rem 1rem;
+  border-style: none;
+  background-color: var(--clr-ivory);
+  border-radius: 1.5rem;
+}
+
+input:focus {
+  outline: var(--clr-khaki) 2px solid;
+}
