@@ -33,6 +33,23 @@
   border-radius: 100%;
 }
 
+.greetings {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.greetings p {
+  font-size: clamp(1rem, 1.2rem, 2vw);
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.greetings h1 {
+  font-size: clamp(1.6rem, 1.8rem, 2vw);
+  font-weight: 700;
+}
+
 .btn-wrapper {
   display: flex;
   justify-content: flex-end;
