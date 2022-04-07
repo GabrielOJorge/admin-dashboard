@@ -30,4 +30,5 @@ input:focus {
 
 button {
   border-style: none;
+  cursor: pointer;
 }
