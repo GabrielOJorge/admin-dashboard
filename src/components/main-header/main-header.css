@@ -1,6 +1,7 @@
 .main-header {
   grid-area: header;
   display: grid;
+  padding: 2rem 5rem;
 }
 
 .main-header > div {
@@ -13,6 +14,10 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.search-bar + div {
+  justify-content: flex-end;
 }
 
 .pfp {
