@@ -32,3 +32,9 @@
   width: 40px;
   border-radius: 100%;
 }
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
