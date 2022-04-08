@@ -8,13 +8,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+main {
+  grid-area: main;
+  background: var(--clr-ivory);
+}
+
 ul {
   list-style-type: none;
 }
 
-main {
-  grid-area: main;
-  background: var(--clr-ivory);
+a {
+  text-decoration: none;
+  color: var(--clr-white);
 }
 
 input[type="search"] {
