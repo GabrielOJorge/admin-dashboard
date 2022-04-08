@@ -20,3 +20,8 @@
 .logo img {
   width: min(4rem, 4vw);
 }
+
+.dashboard-sidebar a {
+  display: flex;
+  align-items: center;
+}
