@@ -2,4 +2,21 @@
   grid-area: sidebar;
   background: var(--clr-dark-blue);
   color: var(--clr-white);
+  padding: 2rem 2rem;
+}
+
+.dashboard-sidebar img {
+  filter:  brightness(0) invert(1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: clamp(1.8rem, 2.4rem, 4vw);
+  font-weight: 700;
+}
+
+.logo img {
+  width: min(4rem, 4vw);
 }
