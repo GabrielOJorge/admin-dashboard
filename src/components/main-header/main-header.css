@@ -2,7 +2,7 @@
   grid-area: header;
   display: grid;
   padding: 2rem 5rem;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .main-header > div {
