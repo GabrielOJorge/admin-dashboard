@@ -11,6 +11,15 @@ body {
 main {
   grid-area: main;
   background: var(--clr-ivory);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "projects"
+                       "projects";
+}
+
+main div:nth-child(1) {
+  grid-area: projects;
 }
 
 ul {
