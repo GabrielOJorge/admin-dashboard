@@ -3,10 +3,14 @@
   background: var(--clr-dark-blue);
   color: var(--clr-white);
   padding: 2rem 2rem;
+  display: grid;
+  align-items: start;
+  grid-template-rows: 1fr 8fr;
 }
 
 .dashboard-sidebar img {
   filter:  brightness(0) invert(1);
+  width: 2rem;
 }
 
 .logo {
@@ -18,10 +22,28 @@
 }
 
 .logo img {
-  width: min(4rem, 4vw);
+  width: 4rem;
+}
+
+.dashboard-sidebar nav {
+  padding-left: 1rem;
+  display: inherit;
+  gap: 6rem;
+}
+
+.dashboard-sidebar ul {
+  display: inherit;
+  gap: 2.5rem;
+}
+
+.dashboard-sidebar li {
+  position: relative;
 }
 
 .dashboard-sidebar a {
   display: flex;
   align-items: center;
+  gap: 2rem;
+  font-size: clamp(1.4rem, 1.8rem, 2vw);
+  font-weight: 600;
 }
