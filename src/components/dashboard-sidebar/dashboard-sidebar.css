@@ -47,3 +47,22 @@
   font-size: clamp(1.4rem, 1.8rem, 2vw);
   font-weight: 600;
 }
+
+.name-div {
+  position: relative;
+}
+
+.link-name::after {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-white);
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: .3s;
+}
+
+.dashboard-sidebar a:hover .link-name::after {
+  width: 100%;
+}
