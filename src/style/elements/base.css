@@ -20,7 +20,7 @@ main {
   gap: 2rem;
 }
 
-main > div:nth-child(1) {
+main > section {
   grid-area: projects;
   display: grid;
   grid-template-rows: max-content;
