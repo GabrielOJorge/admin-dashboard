@@ -23,6 +23,10 @@
   font-weight: 600;
 }
 
+.search-bar + div button {
+  background: none;
+}
+
 .pfp {
   height: 60px;
   width: 60px;
@@ -33,6 +37,7 @@
   height: 40px;
   width: 40px;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .greetings {
