@@ -16,10 +16,20 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "projects"
                        "projects";
+	padding: 2.5rem 2rem 4rem 2rem;
+  gap: 2rem;
 }
 
-main div:nth-child(1) {
+main > div:nth-child(1) {
   grid-area: projects;
+  display: grid;
+  grid-template-rows: max-content;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
 }
 
 ul {
