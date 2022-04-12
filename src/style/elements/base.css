@@ -26,6 +26,11 @@ main > section {
   grid-template-rows: max-content;
 }
 
+main h2 {
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
+  font-weight: 600;
+}
+
 .projects-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
