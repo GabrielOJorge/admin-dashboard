@@ -24,6 +24,7 @@ main > section {
   grid-area: projects;
   display: grid;
   grid-template-rows: max-content;
+  gap: 1rem;
 }
 
 main h2 {

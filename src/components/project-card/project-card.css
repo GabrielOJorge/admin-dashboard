@@ -1,3 +1,26 @@
 .project-card {
+  display: grid;
+  align-items: center;
+
   background: var(--clr-white);
+  border-left: .7rem solid var(--clr-khaki);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem 0;
+  box-shadow: 1px 3px 5px var(--clr-light-grey);
+}
+
+.project-card > div:nth-child(2) {
+  justify-self: end;
+}
+
+.project-card h3 {
+  font-size: clamp(1.2rem, 1.6rem, 2vw);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: clamp(1rem, 1.2rem, 2vw);
+  line-height: 1.5rem;
+  color: var(--clr-grey);
 }
