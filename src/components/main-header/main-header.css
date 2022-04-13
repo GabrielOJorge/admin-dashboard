@@ -49,3 +49,25 @@
   justify-content: flex-end;
   gap: 2rem;
 }
+
+.notifications-btn:hover {
+  animation: bell .3s;
+}
+
+@keyframes bell {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-0.1turn);
+  }
+  50% {
+    transform: rotate(0.1turn);
+  }
+  100% {
+    transform: rotate(-0.1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
