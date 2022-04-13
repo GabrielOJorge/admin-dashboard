@@ -1,0 +1,31 @@
+.trending-article {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 1rem;
+}
+
+.trending-article > div {
+  display: grid;
+  align-items: center;
+
+  background: var(--clr-white);
+  border-radius: 1rem;
+  box-shadow: 1px 3px 5px var(--clr-light-grey);
+  padding: 0rem 2.5rem 2rem;
+}
+
+.trending-article h3 {
+  font-size: clamp(1rem, 1.2rem, 2vw);
+  margin-bottom: .5rem;
+}
+
+.trending-article p {
+  color: var(--clr-grey);
+  font-size: clamp(1rem, 1.2rem, 1vw);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
