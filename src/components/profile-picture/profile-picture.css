@@ -1,0 +1,12 @@
+.profile-picture {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.profile-picture.-small {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
